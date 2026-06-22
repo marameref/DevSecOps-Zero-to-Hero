@@ -21,6 +21,7 @@ jobs:
           url: http://54.210.179.58:8200
           role: gh-actions-role
           method: jwt
+          jwtAudience: "https://github.com/marameref"
           secrets: |
             aws/creds/terraform-role access_key | AWS_ACCESS_KEY_ID ;
             aws/creds/terraform-role secret_key | AWS_SECRET_ACCESS_KEY
