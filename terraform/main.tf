@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "secure_bucket" {
-  bucket = "my-secure-demo-bucket"
+  bucket = "marameref-secures-demo-bucket"
 }
 
 resource "aws_s3_bucket_public_access_block" "secure_access" {
